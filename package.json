@@ -1,0 +1,19 @@
+{
+  "name": "deploy-heroku-01",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "ng build --prod"
+  },
+  "engines": {
+    "node": "16.14.1",
+    "npm": "8.5.0"
+  },
+  "dependencies": {
+    "@angular/cli": "^13.3.1",
+    "@angular/compiler-cli": "^13.3.1",
+    "express": "^4.17.3",
+    "path": "^0.12.7",
+    "save-dev": "^0.0.1-security",
+    "typescript": "^4.6.3"
+  }
+}
